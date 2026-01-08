@@ -12,3 +12,6 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
+pyyaml 
+zip   
+box

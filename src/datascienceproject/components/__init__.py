@@ -1,0 +1,1 @@
+from src.datascienceproject.components.data_ingestion import DataIngestion
