@@ -124,3 +124,99 @@ Source-Age: 0
 [2026-01-08 20:41:11,356: INFO: main: >>>>>stage Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2026-01-10 23:10:52,223: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:10:52,285: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:16:13,008: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:16:13,013: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:16:13,021: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:16:13,025: INFO: common: created directory at: artifacts]
+[2026-01-10 23:16:13,029: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-10 23:17:28,668: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:17:28,672: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:17:28,680: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:17:28,684: INFO: common: created directory at: artifacts]
+[2026-01-10 23:17:28,685: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-10 23:17:49,285: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:17:49,289: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:17:49,305: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:17:49,309: INFO: common: created directory at: artifacts]
+[2026-01-10 23:17:49,314: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-10 23:23:06,353: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:23:06,375: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:23:06,383: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:23:06,390: INFO: common: created directory at: artifacts]
+[2026-01-10 23:23:06,396: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-10 23:23:37,629: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:23:37,636: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:23:37,649: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:23:37,653: INFO: common: created directory at: artifacts]
+[2026-01-10 23:23:37,657: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-10 23:47:18,521: INFO: main: >>>>>stage Data Ingestion Stage started <<<<<<]
+[2026-01-10 23:47:18,525: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:47:18,527: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:47:18,531: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:47:18,532: INFO: common: created directory at: artifacts]
+[2026-01-10 23:47:18,532: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-10 23:47:18,532: INFO: data_ingestion: File already exists]
+[2026-01-10 23:47:18,600: INFO: main: >>>>>stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-01-10 23:47:18,601: INFO: main: >>>>>stage Data Validation Stage started <<<<<<]
+[2026-01-10 23:47:18,610: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:47:18,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:47:18,625: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:47:18,628: INFO: common: created directory at: artifacts]
+[2026-01-10 23:47:18,630: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-10 23:47:18,630: ERROR: main: DataValidationConfig.__init__() got an unexpected keyword argument 'unzip_data_dir']
+Traceback (most recent call last):
+  File "/home/user/datascienceproject/main.py", line 20, in <module>
+    data_ingestion.initiate_data_validation()
+  File "/home/user/datascienceproject/src/datascienceproject/pipeline/data_validation_pipeline.py", line 13, in initiate_data_validation
+    data_validation_config = config.get_data_validation_config()
+  File "/home/user/datascienceproject/src/datascienceproject/config/configuration.py", line 35, in get_data_validation_config
+    data_validation_config = DataValidationConfig(
+TypeError: DataValidationConfig.__init__() got an unexpected keyword argument 'unzip_data_dir'
+[2026-01-10 23:48:07,543: INFO: main: >>>>>stage Data Ingestion Stage started <<<<<<]
+[2026-01-10 23:48:07,548: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:48:07,549: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:48:07,554: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:48:07,555: INFO: common: created directory at: artifacts]
+[2026-01-10 23:48:07,555: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-10 23:48:07,556: INFO: data_ingestion: File already exists]
+[2026-01-10 23:48:07,560: INFO: main: >>>>>stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-01-10 23:48:07,561: INFO: main: >>>>>stage Data Validation Stage started <<<<<<]
+[2026-01-10 23:48:07,565: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:48:07,567: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:48:07,572: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:48:07,573: INFO: common: created directory at: artifacts]
+[2026-01-10 23:48:07,574: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-10 23:48:07,574: ERROR: main: DataValidationConfig.__init__() got an unexpected keyword argument 'unzip_data_dir']
+Traceback (most recent call last):
+  File "/home/user/datascienceproject/main.py", line 20, in <module>
+    data_ingestion.initiate_data_validation()
+  File "/home/user/datascienceproject/src/datascienceproject/pipeline/data_validation_pipeline.py", line 13, in initiate_data_validation
+    data_validation_config = config.get_data_validation_config()
+  File "/home/user/datascienceproject/src/datascienceproject/config/configuration.py", line 35, in get_data_validation_config
+    data_validation_config = DataValidationConfig(
+TypeError: DataValidationConfig.__init__() got an unexpected keyword argument 'unzip_data_dir'
+[2026-01-10 23:49:20,296: INFO: main: >>>>>stage Data Ingestion Stage started <<<<<<]
+[2026-01-10 23:49:20,302: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:49:20,303: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:49:20,308: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:49:20,309: INFO: common: created directory at: artifacts]
+[2026-01-10 23:49:20,309: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-10 23:49:20,309: INFO: data_ingestion: File already exists]
+[2026-01-10 23:49:20,313: INFO: main: >>>>>stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-01-10 23:49:20,313: INFO: main: >>>>>stage Data Validation Stage started <<<<<<]
+[2026-01-10 23:49:20,317: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-01-10 23:49:20,318: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-10 23:49:20,323: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-01-10 23:49:20,324: INFO: common: created directory at: artifacts]
+[2026-01-10 23:49:20,324: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-10 23:49:20,359: INFO: main: >>>>>stage Data Validation Stage completed <<<<<<
+
+x==========x]
